@@ -11,14 +11,14 @@ body{
   transform: translate(-50%, -50%);
   animation: rotate 20s linear infinite;
   filter: blur(10px) contrast(15);
-} /*
+}
 @keyframes rotate {
   from{
     transform: translate(-50%, -50%) rotate(0deg);
   } to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
-} */
+} 
 .particle{
   background: black;
   width: 100px;
@@ -36,12 +36,11 @@ body{
   position: relative;
   left: 30px;
 }
-.overlap1{
+.overlap2{
   top: +30px;
   position: relative;
   left: 30px;
 }
-/*
 .particle:nth-child(3){
   animation: pulse 8s ease-in-out infinite;
 }
@@ -80,4 +79,4 @@ body{
   } to {
     transform: rotate(0deg) translateX(50px);
   }
-} */
+} 
