@@ -1,0 +1,70 @@
+body{
+  background-color: white;
+}
+.ciak_image{
+  width: 100px;
+  length: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 30s linear infinite;
+}
+.loader{
+  position: fixed;
+  display: flex;
+  padding: 100px;
+  background-color: #eeeff0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 25s linear infinite;
+  filter: blur(10px) contrast(15);
+}
+@keyframes rotate {
+  from{
+    transform: translate(-50%, -50%) rotate(0deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.particle{
+  background: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.particle:first-child{
+  width: 50px;
+  height: 55px;
+}
+.overlap1{
+  top: -50px;
+  position: relative;
+  left: 140px;
+}
+.overlap2{
+  top: 10px;
+  position: relative;
+  left: -90px;
+}
+.overlap3{
+  top: 170px;
+  position: relative;
+  left: 180px;
+}
+.particle:nth-child(3){
+  width: 250px;
+  height: 250px;
+  animation: pulse 8s ease-in-out infinite;
+}
+@keyframes pulse{
+  0% {transform: scale(1)}
+  50% {transform: scale(0.9)}
+  70% {transform: scale(0.8)}
+  100% {transform: scale(1)}
+}
+.particle:nth-child(2),
+.particle:nth-child(4){
+  animation: pulse 5s ease-in-out infinite;
+}
