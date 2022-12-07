@@ -6,7 +6,6 @@ body{
   display: flex;
   padding: 100px;
   background-color: #eeeff0;
-  /* background-image: url("black circle.png"); */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -36,10 +35,10 @@ body{
   animation: pulse 18s ease-in-out infinite;
 }
 @keyframes pulse{
-  0% {transform: scale(3.4)}
-  50% {transform: scale(3.9)}
-  70% {transform: scale(3.3)}
-  100% {transform: scale(4.5)}
+  0% {transform: scale(1)}
+  50% {transform: scale(1.9)}
+  70% {transform: scale(2.3)}
+  100% {transform: scale(1.5)}
 }
 .particle:nth-child(2),
 .particle:nth-child(4){
