@@ -9,7 +9,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: rotate 20s linear infinite;
+  animation: rotate 18s linear infinite;
   filter: blur(10px) contrast(15);
 }
 @keyframes rotate {
@@ -21,8 +21,8 @@ body{
 } 
 .particle{
   background: black;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 .particle:first-child,
