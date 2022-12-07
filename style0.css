@@ -21,8 +21,8 @@ body{
 } 
 .particle{
   background: black;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 .particle:first-child,
@@ -42,6 +42,8 @@ body{
   left: -80px;
 }
 .particle:nth-child(3){
+  width: 200px;
+  height: 200px;
   animation: pulse 8s ease-in-out infinite;
 }
 @keyframes pulse{
@@ -52,7 +54,7 @@ body{
 }
 .particle:nth-child(2),
 .particle:nth-child(4){
-  animation: pulse2 5s ease-in-out infinite;
+  animation: pulse 5s ease-in-out infinite;
 }
 @keyframes pulse2{
   0% {transform: scale(1)}
