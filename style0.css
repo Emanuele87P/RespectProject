@@ -6,7 +6,7 @@ body{
   display: flex;
   padding: 100px;
   background-color: #eeeff0;
-  background-image: url("black circle.png");
+  /* background-image: url("black circle.png"); */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
