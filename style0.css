@@ -31,8 +31,13 @@ body{
   height: 50px;
   animation-delay: .25s;
 } 
-.overlap{
+.overlap1{
   top: -30px;
+  position: relative;
+  left: 30px;
+}
+.overlap1{
+  top: +30px;
   position: relative;
   left: 30px;
 }
